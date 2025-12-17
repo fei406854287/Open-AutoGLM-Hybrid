@@ -5,7 +5,7 @@ on:
     branches: [ main, master ]
   pull_request:
     branches: [ main, master ]
-  workflow_dispatch:  # 允许手动触发 自测专用
+  workflow_dispatch:  # 允许手动触发 自测
 
 jobs:
   build:
